@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #dcdee0;  
+    border-right: 50px solid #5c5655;
+    border-left: 50px solid #5c5655;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.header{
+    position: absolute;    
+    top: 0;
+    left: 200px; 
+    width: auto;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100 ;
+    background-color: #f5f6f7;
+    border-bottom: 1px solid black;
+}
+.header img{
+    height: 60px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: -30px;    
+}
+ul li a::before {
+    content: "";
+    transition:0.3s;
+}
+ul li a:hover::before {
+    width: 50%;
+}
+.header1{
+    position: absolute;     
+    width: auto;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+    z-index: 100 ;
+    background-color: #f5f6f7;
+    top: 100px;
+    left: 50px; 
+    padding-bottom: 50px;
+    height: 10.6vh;
+    z-index: 100 ;
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom: 5px solid red; 
+    border-radius: 10px;
+}   
+header div{ 
+    background-color: #f5f6f7; 
+    width: 100%!important; 
+    box-shadow: 2px 2px 0 0 black;
+}
+.header1 li{
+    height: 9.5vh;
+    margin-top: -2.3vh;
+    padding-top: 3.5vh;
+    display: flex;
+    justify-content: center;
+}
+.header1 span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    font-size: 18px;
+}
+ul li:hover span {
+    color: red;
+}   
+#nav_home{
+    /* width: auto; */
+    /* border-bottom: #8f8786; */
+    border-bottom: 3px solid #919191;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#nav_home:hover {
+    background-color: #919191;
+    /* border-bottom: 2px solid #919191;    */
+}
+#nav_home1:hover{
+    color: white;
+}
+#nav_bar_home{
+    border-bottom: 3px solid #919191;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#nav_bar_one{
+    border-bottom: 3px solid #E3350D;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#nav_bar_one1:hover{
+    color: #fff;
+}
+.navbar #nav_bar_one a:hover{
+    color: #fff;
+} 
+#nav_bar_one:hover {
+    background-color: #E3350D;
+}
+#nav_bar_one a:hover{
+    color:  black!important;
+}
+#video_games{
+    border-bottom: 3px solid #ee6b2f;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#video_games:hover{
+    background-color: #ee6b2f;
+}
+#video_games1:hover{
+    color: #fff;
+}
+#trading_games{
+    border-bottom: 3px solid #e6bc2f;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#trading_games:hover{
+    background-color: #e6bc2f;
+}
+#trading_games1:hover{
+    color: #fff;
+}
+#pokemon2{
+    border-bottom: 3px solid #4dad5b;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#pokemon2:hover{
+    background-color: #4dad5b;
+}
+#Pokemon21:hover{
+    color: #fff;
+}
+#pokemon3{
+    border-bottom: 3px solid #30a7d7;
+    padding-bottom: 1vh;
+    /* width: 5vw; */
+}
+#pokemon3:hover{
+    background-color: #30a7d7;
+}
+#pokemon31:hover{
+    color: #fff;
+}
+#pokemon4{
+    border-bottom: 3px solid #1b53ba;
+    padding-bottom: 1vh;
+    width: 5vw;
+}
+#pokemon4:hover{
+    background-color: #1b53ba;
+}
+#pokemon41:hover{
+    color: #fff;
+}
+.active {
+    color: #fff;
+}
+header div .log1{
+    box-shadow: 2px 2px 10px 0 black;
+}
+.navbar ul>li{
+    list-style: none;   
+    display: inline-block;
+    text-decoration: none;
+    list-style: none; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+}
+.button{
+    position: fixed;
+    top: 30%;
+    left: 40px;
+    width: 70px;
+    height: 20  0px;
+    background-color: #5c5655;
+    border-top-right-radius: 10px;
+    z-index:1;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.button1{
+    border-radius: 10px;
+    background-color: #54b564;
+    height: 70px;
+}
+.button2{
+    border: 2   px solid black;
+    background-color: #878787;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    height: 70px;  
+    width: 70px;
+}
+div .button1 img{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    padding: 10px;
+}
+div .button2 img{
+    height: 40px;
+    margin: 10px;
+    filter: invert(100);
+}
+.Annotation{
+    position: absolute;
+    top: 250px;
+    width: 1400px; 
+    height: 500px; 
+}
+.Annotation img{
+    width: 100%;
+}
+.container{
+    position: relative;
+    top: 650px;
+    left: 12%;
+    width: 70%;
+    height: auto;
+    background-color: white ;
+}
+.container .head{
+    font-size: 40px;
+    border: none;
+}
+.container h2{
+    font-size: 30px;
+    border-bottom: 3px solid #30A7D7;
+    padding: 5px;
+    width: 70%;
+}
+.first-letter::first-letter {
+    font-size: 60px;
+    color: #30a7d7;
+    font-weight: 900;
+}
+.container p{
+    padding: 20px;
+    font-size: 18px;
+    color: #878787;
+    width: 70%;
+}   
+.container a{
+    text-decoration: none;
+    color: #1b53ba;
+    padding: 20px;
+    padding-top: 20px;
+}
+.container a:hover{
+    color: blue;
+}
+.para3{
+    text-align: center;
+}
+.container1{
+    position: absolute;
+    top: 700px;
+    left: 62%;
+    width: 50%;
+    height: 120px;       
+}
+.container1 .button3{
+    background-color: #30A7D7;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 280px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+.container1 .button3:hover{
+    background-color: #135b77;
+}
+.container1 .return_gallery{
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    margin: 20px;
+}
+.container1 .release_date{
+    position: absolute;
+    top: 340px;
+    left: 0;
+    width: 280px;
+    height: auto;
+    background-color: whitesmoke;
+    border: 4px solid #878787;  
+}
+.container1 .release_date p{
+    margin: 10px;   
+}
+.container1 .release_date:hover{
+    background-color: #878787;
+}
+.container1 .google_play{
+    position: absolute;
+    top: 500px;
+    left: 0;
+}
+.container1 .android_devices{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 280px;
+    height: auto;
+    background-color: whitesmoke;
+    border: 4px solid #878787;
+}
+.container1 .android_devices:hover{
+    background-color: #878787;
+}
+footer{
+    position: absolute;
+    top: 10800px;
+    left: 0;
+    width: 100%;
+}
+.foot-panel{
+    background-color: #3b3939;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    display: block;
+    padding-left: 200px;
+    border-right: 5px solid rgb(250, 250, 250);
+    
+}
+.foot-panel ul a{
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.foot-panel ul p{
+    padding-top: 50px;
+    font-size: 24px;
+}
